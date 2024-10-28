@@ -1,0 +1,17 @@
+.container {
+  border: 2px solid black;
+  display: grid;
+  width: 80vw;
+  height: 100vh;
+ grid-template-columns: repeat(3, minmax(100px,1fr));
+ justify-items: flex-end;
+ align-items: center;
+}
+
+.items {
+  border: 2px solid red;
+  height: 55px;
+  width: 55px;
+}
+ 
+
